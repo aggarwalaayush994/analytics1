@@ -1,1 +1,11 @@
 mtcars
+women
+data(women)
+women
+names(women)
+str(women)
+plot(x=women$height,y=women$weight)
+abline(lm(weight~height,data=women),col="red")
+names(women)
+fit1=lm(weight~height,data=women)
+summary(fit1)
