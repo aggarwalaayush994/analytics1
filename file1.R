@@ -61,7 +61,7 @@ new1
 cbind(new1, p1)
 #136.7333 140.1833
 
-(new2 = data.frame(height=c(60,69)))
+(new2 = data.frame(height=c(60:69)))
 (p2=predict(fit1, newdata = new2))
 cbind(new2, p2)
 
