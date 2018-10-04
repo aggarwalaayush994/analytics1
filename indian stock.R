@@ -6,7 +6,7 @@ if (!require("quantmod")) {
   install.packages("quantmod")
   library(quantmod)
 }
-
+?lm.beta
 start <- as.Date("2017-01-01")
 end <- as.Date("2018-09-28")
 getSymbols("SBIN.NS", src = "yahoo", from = start, to = end)
